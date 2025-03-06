@@ -10,6 +10,8 @@ A web application that allows users to search for Pokémon by name or ID and ret
 - Shows Pokémon types and base stats (HP, Attack, Defense, etc.)
 - Responsive and visually appealing UI
 
+## Live Demo
+[codepen](https://codepen.io/DevOlabode/pen/azogYbV).
 ## 📸 Screenshot
 ![Pokemon Search App](images/pokemon-initial.PNG)
 
