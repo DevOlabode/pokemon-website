@@ -2,17 +2,19 @@
 
 A web application that allows users to search for Pokémon by name or ID and retrieve detailed information, including stats, types, and an image. Built using HTML, CSS, JavaScript, and the [PokéAPI](https://pokeapi.co/).
 
+![Pokemon Search App](images/pokemon-2.jpeg)
+
 ## 🚀 Features
 - Search for any Pokémon by name or ID
 - Displays Pokémon name, ID, weight, height, and image
 - Shows Pokémon types and base stats (HP, Attack, Defense, etc.)
 - Responsive and visually appealing UI
 
-## 🖥️ Live Demo
-[Add your live link here if hosted]
-
 ## 📸 Screenshot
 ![Pokemon Search App](images/pokemon-initial.PNG)
+
+
+![Pokemon Search App](images/pokemon-1.jpeg)
 
 ## 🔧 Technologies Used
 - HTML
