@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Website</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <h2>Pokemon Website(API Practice)</h2>
+    <form action="//pokeAPI" id="pokemonSubmit">
+
+        <section>
+        <label for="nameID">Search pokemon name or ID</label>
+        <input type="text" id="nameID" >
+    </section>
+
+    <button id="enter">Search</button>
+    </form>
+
+    <section>
+        <div id="pokemonInfo">
+
+            <!-- the pokemon name and ID -->
+            <div id="N-ID"></div>
+
+            <!-- Pokemon weight and height -->
+            <div id="W-H"></div>
+
+            <!-- Pokemon Image -->
+            <div id="imgContainer"></div>
+
+            <!-- pokemon types -->
+             <div id="types">
+                <span id="type1"></span>
+                <span id="type2"></span>
+             </div>
+        </div>
+    </section>
+
+    <section>
+        <table>  
+            <tr>   
+                <td id="baseDisplay"> Base: </td>  
+                <td>  HP </td>  
+                <td>  Attack </td>  
+                <td>  Defense  </td>  
+                <td>  Sp.Attack </td>  
+                <td> Sp.Defense </td>  
+                <td> Speed </td>  
+            </tr>  
+            <tr> 
+                <td id="statsDisplay"> Stats: </td>  
+                <td id="hp"></td>  
+                <td id="attack">  </td>  
+                <td id="defense"> </td>  
+                <td id="sp.attack">  </td>  
+                <td id="sp.defense"> </td>  
+                <td id="speed"></td>  
+            </tr>  
+        </table>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="pokeAPI.js"></script>
+</body>
+</html>
