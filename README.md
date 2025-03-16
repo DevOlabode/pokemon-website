@@ -11,7 +11,7 @@ A web application that allows users to search for Pokémon by name or ID and ret
 - Responsive and visually appealing UI
 
 ## Live Demo
-[Project Codepen Link](https://codepen.io/DevOlabode/pen/azogYbV).
+You can see a live demo of the project [here](https://codepen.io/DevOlabode/pen/azogYbV).
 ## 📸 Screenshot
 ![Pokemon Search App](images/pokemon-initial.PNG)
 
